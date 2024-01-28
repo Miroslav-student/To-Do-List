@@ -2,7 +2,7 @@ const clockElem = document.querySelector("#clock");
 const dateElem = document.querySelector("#date");
 
 const city = "Ivano-Frankivsk";
-const apiKey = "code";
+const apiKey = "300ee175286ded52ffac455c4a1947b0";
 const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
 fetch(url)
